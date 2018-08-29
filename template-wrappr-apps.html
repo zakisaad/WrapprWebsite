@@ -31,6 +31,39 @@
     <!-- Google Material Icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   </head>
+  <style>
+  .card-blue:hover{
+    transition-duration: 200ms;
+    transition-timing-function: ease-in-out;
+    box-shadow: 0px 6px 40px rgba(33, 150, 243, .5);
+    transform: translateY(-10px) scale(1.01,1.01);
+  }
+
+  .card-blue{
+    transition-duration: 200ms;
+    transition-timing-function: ease-in-out;
+  }
+
+    .card-red:hover{
+    transition-duration: 200ms;
+    transition-timing-function: ease-in-out;
+    box-shadow: 0px 6px 40px rgba(244, 67, 54, 0.10);
+    transform: translateY(-10px) scale(1.01,1.01);
+  }
+
+  .card-red{
+    transition-duration: 200ms;
+    transition-timing-function: ease-in-out;
+    border: none;
+  }
+
+
+  
+
+
+
+
+  </style>
   <body>
 
     <!-- Header dark, text left, visual right
@@ -49,15 +82,16 @@
                 <!-- /.row -->
                 <div class="row">
                   <div class="col-sm-12 col-md-6">
-                    <h1 class="pt-5 display-4 text-left no-margin-sm"><b>Website to App in 5 days, guaranteed.</b></h1>
-                    <p class="lead">We help businesses achieve their goals faster with <span class="typed" data-text="['app development', 'graphic design', 'marketing']"></span>.</p>
+                    <h1 class="pt-5 display-4 text-left no-margin-sm"><b>Reach 2+ billion people.</b></h1>
+                    <p style="font-size: .7em; color: #ffffff70;">Estimated user base of iOS and android marketplaces combined.</p>
+                    <p class="lead" style="margin-top:0;">We help businesses achieve their goals faster with <span class="typed" data-text="['app development', 'graphic design', 'marketing']"></span>.</p>
                     <form class="form">
                         <!-- /.form-group -->
                         <div class="form-group">
-                          <input type="email" class="form-control" id="email" placeholder="Your email address">
+                          <input type="email" class="form-control" id="email" placeholder="your email address" style="border-radius:20px; height: 40px;;">
                         </div>
                         <div class="form-group" style="margin-top:-10px;">
-                          <button type="submit" class="btn btn-blue btn btn-block"><i class="fa fa-paper-plane" aria-hidden="true"></i> Apply now for a <b> FREE</b> eligibility review</button>
+                          <button type="submit" class="btn btn-blue btn-pill btn-block"><i class="fa fa-paper-plane" aria-hidden="true"></i> Apply now for a <b> FREE</b> eligibility review</button>
                         </div>
                         <!-- /.form-group -->
                       </form>
@@ -117,6 +151,133 @@
         <!-- /.content -->
       </section>
   
+
+          <!-- Pricing tables, 3 plans
+      ================================================== -->
+    <section class="typography-1" style="background-color:rgb(246, 246, 246);border-top:1px solid rgb(230,230,230);" >
+      <div class="pricing pricing-style-1 text-dark">
+        <div class="pricing-overlay">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12  my-5">
+                <h1 class=" display-4 no-margin-sm text-center"> 
+                  <b> Legacy apps <span class="badge badge-pill badge-danger"> vs </span> Wrappr apps </b> </h1>
+              </div>
+              <div class="col-xs-12 col-md-6">
+
+                <div class="card color-red card-red">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th>
+                          <h2>Legacy Apps</h2>
+                          <p>$15,000 + Ongoing Maintanence</p>
+                        </th>
+                      </tr>
+                      <!-- <tr class="price">
+                        <th>
+                          <div>Old</div>
+                        </th>
+                      </tr> -->
+                    </thead>
+                    <tbody>    
+                      <tr>
+                        <td>
+                          <h4><b> Hard to keep up to date</b></h4>
+                          <p> Keeping all your digital touchpoints up to date is a daunting task.<p> 
+                          <!-- <h5><i class="fa fa-bolt" aria-hidden="true"></i> 10,000</h5> -->
+                          <hr>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <h4>Video Support</h4>
+                          <h5><i class="fa fa-video-camera" aria-hidden="true"></i> Yes</h5>
+                          <hr>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <h4>Disk Space</h4>
+                          <h5><i class="fa fa-hdd-o" aria-hidden="true"></i> 100MB</h5>
+                        </td>
+                      </tr>
+                    </tbody>
+                    <tfoot>
+                      <tr>
+                        <td>
+                          <a href="javascript:void(0);" class="btn btn-outline-red btn-block btn-lg">Select Plan</a>
+                        </td>
+                      </tr>
+                    </tfoot>
+                  </table>
+                  <!-- /.table -->
+                </div>
+                <!-- /.card -->
+              </div>
+              <!-- /.col -->
+              <div class="col-xs-12 col-md-6">
+
+                <div class="card bg-blue card-blue">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th>
+                          <h2>Premium Plan</h2>
+                          <p>Enterprise Value</p>
+                        </th>
+                      </tr>
+                      <tr class="price">
+                        <th>
+                          <div>$64<small>/m</small></div>
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <h4>Interactions</h4>
+                          <h5><i class="fa fa-bolt" aria-hidden="true"></i> 100,000</h5>
+                          <hr>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <h4>Video Support</h4>
+                          <h5><i class="fa fa-video-camera" aria-hidden="true"></i> Yes</h5>
+                          <hr>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <h4>Disk Space</h4>
+                          <h5><i class="fa fa-hdd-o" aria-hidden="true"></i> 10GB</h5>
+                        </td>
+                      </tr>
+                    </tbody>
+                    <tfoot>
+                      <tr>
+                        <td>
+                          <a href="javascript:void(0);" class="btn btn-secondary btn-block btn-lg">Select Plan</a>
+                        </td>
+                      </tr>
+                    </tfoot>
+                  </table>
+                  <!-- /.table -->
+                </div>
+                <!-- /.card -->
+              </div>
+              <!-- /.col -->
+            </div>
+            <!-- /.row -->
+          </div>
+          <!-- /.container -->
+        </div>
+        <!-- /.pricing-overlay -->
+      </div>
+      <!-- /.pricing -->
+    </section>
+
 
           <!-- Image Jumbotron #8
       ================================================== -->
