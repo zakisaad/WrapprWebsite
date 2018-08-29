@@ -35,7 +35,7 @@
   .card-blue:hover{
     transition-duration: 200ms;
     transition-timing-function: ease-in-out;
-    box-shadow: 0px 6px 40px rgba(33, 150, 243, .5);
+    box-shadow: 0px 10px 40px rgba(33, 150, 243, .5);
     transform: translateY(-10px) scale(1.01,1.01);
   }
 
@@ -47,7 +47,7 @@
     .card-red:hover{
     transition-duration: 200ms;
     transition-timing-function: ease-in-out;
-    box-shadow: 0px 6px 40px rgba(244, 67, 54, 0.10);
+    box-shadow: 0px 10px 40px rgba(244, 67, 54, 0.10);
     transform: translateY(-10px) scale(1.01,1.01);
   }
 
@@ -57,10 +57,13 @@
     border: none;
   }
 
-
-  
-
-
+      .image-jumbotron-8 .image-jumbotron-overlay {
+        background: #4776e6;
+        background: -moz-linear-gradient(top,  #4776e6 0%, #8e54e9 100%);
+        background: -webkit-linear-gradient(top,  #4776e6 0%,#8e54e9 100%);
+        background: linear-gradient(to bottom,  #4776e6 0%,#8e54e9 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4776e6', endColorstr='#8e54e9',GradientType=0 );
+      }
 
 
   </style>
@@ -75,7 +78,7 @@
               <div class="header-padding" style="padding:2rem;padding-bottom:0;" >
                 <div class="row">
                   <div class="col-xs-12 flex text-center">
-                   <img src="assets/images/logos/wrappr-logo.png" alt="" width="170px"class="rounded img-fluid"  >
+                   <img src="assets/images/logos/wrappr-logo.png" alt="" width="170px"class="ml-3 rounded img-fluid"  >
                   </div>
                   <!-- /.col -->
                 </div>
@@ -88,7 +91,7 @@
                     <form class="form">
                         <!-- /.form-group -->
                         <div class="form-group">
-                          <input type="email" class="form-control" id="email" placeholder="your email address" style="border-radius:20px; height: 40px;;">
+                          <input type="email" class="form-control" id="email" placeholder="Your email address" style="border-radius:20px; height: 40px;;">
                         </div>
                         <div class="form-group" style="margin-top:-10px;">
                           <button type="submit" class="btn btn-blue btn-pill btn-block"><i class="fa fa-paper-plane" aria-hidden="true"></i> Apply a <b> FREE</b> eligibility check </button>
@@ -128,15 +131,14 @@
                   <img src="assets/images/visuals/web-to-app-isometric.png" alt="" class="img-fluid mx-auto d-block" width="60%">
                 </div>
                 <!-- /.col -->
-                <div class="col-md-6 text-xs-center text-md-left">
+                <div class="col-md-6 text-xs-center text-md-left mb-1">
                   <div class="content-padding">
-                    <h2><b>Future ready</b> development</h2>
+                    <h2><b>Have your app in 5 days</b></span>  </b> </h2>
                     <p class="lead">
-                      We develop software to be platform agnostic, with the core of the software hosted on cloud infastructure. 
-                      Our approach ensures that software is flexible and adaptable. </p>
-                    <div class="btn-container">
-                      <a class="btn btn-blue btn-pill btn-block" href="#" role="button" data-toggle="modal" data-target="#exampleModalCenter"><i class="fa fa-search" aria-hidden="true"></i> View our portfolio</a>
-                    </div>
+                      We work by using information from your existing website to create a fully functional mobile application for Android and iOS, granting your business access to two of the worlds
+                      largest digital markets whilst introducing new ways for your customers to interact with you.<br><br>
+                      Our mobile applications provide serious marketing performance for small to medium enterprises for an affordable, one off investment and return value immediately.
+                    </p>
                   </div>
                   <!-- /.content-padding -->
                 </div>
@@ -154,7 +156,7 @@
 
           <!-- Pricing tables, 3 plans
       ================================================== -->
-    <section class="typography-1" style="background-color:rgb(246, 246, 246);border-top:1px solid rgb(230,230,230);" >
+    <section class="typography-1" style="background-color:rgb(246, 246, 246);border-top:1px solid rgb(230,230,230);border-bottom:1px solid rgb(230,230,230);" >
       <div class="pricing pricing-style-1 text-dark">
         <div class="pricing-overlay">
           <div class="container">
@@ -167,28 +169,31 @@
                   <b> Legacy apps  <br>  <span class="badge badge-pill badge-danger mt-3 mb-2">vs </span> <br>Wrappr apps </b> 
                 </h2>
 
+                <p class="lead"> Why wrappr apps are the right choice</p>
+
               </div>
               <div class="col-xs-12 col-md-6">
 
-                <div class="card color-red card-red my-1 mx-1 ">
+                <div class="card color-red card-red my-2 mx-2 ">
                   <table class="table">
                     <thead>
                       <tr>
                         <th>
                           <h2>Legacy Apps</h2>
-                          <h6 class="text-center"> Large initial cost + Ongoing Maintanence</h6>
+                          <h6 class="text-center"> Large initial investment + Ongoing Maintanence costs</h6>
                         </th>
                       </tr>
                       <tr class="price">
                         <th>
-                          <div style="font-size:1.5em;">$15,000+</div>
+                          <div style="font-size:1.5em;">$15,000 +</div>
                         </th>
                       </tr>
                     </thead>
                     <tbody>    
                       <tr>
                         <td>
-                          <h4><i class="fa fa-exclamation-triangle"></i><b> Difficult to update</b></h4>
+                          <h4><i class="fa fa-exclamation-triangle"></i></h4>
+                          <h4><b> Difficult to update</b></h4>
                           <p> Requires dedicated support to ensure content is updated.<p> 
                           <!-- <h5><i class="fa fa-bolt" aria-hidden="true"></i> 10,000</h5> -->
                           <hr>
@@ -196,16 +201,18 @@
                       </tr>
                       <tr>
                         <td>
-                          <h4><i class="fa fa-bug"></i><b> Bugs and Errors</b></h4>
-                          <p> Custom built applications are prone to bugs and security issues.<p> 
+                          <h4><i class="fa fa-bug"></i>  <i class="fa fa-bolt"></i></h4>
+                          <h4><b> Bugs & Errors</b></h4>
+                          <p> Custom built applications are prone to bugs and errors.<p> 
                           <!-- <h5><i class="fa fa-bolt" aria-hidden="true"></i> 10,000</h5> -->
                           <hr>
                         </td>
                       </tr>
                       <tr>
                         <td>
-                          <h4>Disk Space</h4>
-                          <h5><i class="fa fa-hdd-o" aria-hidden="true"></i> 100MB</h5>
+                            <h4><i class="fa fa-hourglass-start"></i></h4>
+                            <h4><b> Long development process </b></h4>
+                            <p>Average lead time of 3-6 months.<p> 
                         </td>
                       </tr>
                     </tbody>
@@ -224,42 +231,45 @@
               <!-- /.col -->
               <div class="col-xs-12 col-md-6">
 
-                <div class="card bg-blue card-blue my-1 mx-1 ">
+                <div class="card bg-blue card-blue my-2 mx-2 ">
                   <table class="table">
                     <thead>
                       <tr>
                         <th>
                           <h2>Wrappr Apps</h2>
-                          <h6 class="text-center">Low one off cost</h6>
+                          <h6 class="text-center">One time investment</h6>
                         </th>
                       </tr>
                       <tr class="price">
                         <th>
-                          <div>$2999</div>
-                        </th>
+                            <div style="font-size:1.5em;">$2,999</div>
+                          </th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
-                        <td>
-                          <h4>Interactions</h4>
-                          <h5><i class="fa fa-bolt" aria-hidden="true"></i> 100,000</h5>
-                          <hr>
-                        </td>
+                          <td>
+                              <h4><i class="fa fa-check-circle"></i></h4>
+                              <h4><b> Feature packed application </b></h4>
+                              <p>We develop a quality, market ready application, not a shortcut.<p> 
+                              <hr>
+                          </td>
+                        </tr>
+                      <tr>
+                          <td>
+                              <h4><i class="fa fa-apple"></i> <i class="fa fa-android"></i></h4>
+                              <h4><b> Cross platform </b></h4>
+                              <p>Our apps are available the iOS and Android markets.<p> 
+                              <hr>
+                          </td>
                       </tr>
                       <tr>
-                        <td>
-                          <h4>Video Support</h4>
-                          <h5><i class="fa fa-video-camera" aria-hidden="true"></i> Yes</h5>
-                          <hr>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <h4>Disk Space</h4>
-                          <h5><i class="fa fa-hdd-o" aria-hidden="true"></i> 10GB</h5>
-                        </td>
-                      </tr>
+                          <td>
+                              <h4><i class="fa fa-tachometer"></i></h4>
+                              <h4><b> Rapid development process </b></h4>
+                              <p>Lead time of 5 Business days.<p> 
+                          </td>
+                        </tr>
                     </tbody>
                     <!-- <tfoot>
                       <tr>
@@ -285,20 +295,72 @@
     </section>
 
 
+    <!-- Header light, text right, gradient, visual left
+      ================================================== -->
+      <style type="text/css">
+        /* http://www.colorzilla.com/gradient-editor/#c21500+0,ffc500+100 */
+        .header-gradient-app .header-overlay {
+          background: #3a7bd5;
+          background: -moz-linear-gradient(left,  #00d2ff 0%, #3a7bd5 100%);
+          background: -webkit-linear-gradient(left,  #00d2ff 0%,#3a7bd5 100%);
+          background: linear-gradient(to right,  #00d2ff 0%,#3a7bd5 100%);
+          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c21500', endColorstr='#ffc500',GradientType=1 );
+        }
+        </style>
+    
+        <section class="header-gradient-app typography-1">
+          <div class="header text-light">
+            <div class="header-overlay">
+              <div class="container">
+                <div class="header-padding-xl">
+                  <div class="row">
+                    <div class="col-xs-8 push-xs-2 col-sm-6 push-sm-3 push-lg-0 col-lg-5 text-md-center text-lg-left">
+                      <img src="assets/images/visuals/iPhone-6-4,7-inch-Mockup.png" alt="" class="img-fluid">
+                    </div>
+                    <!-- /.col -->
+                    <div class="col-xs-12 col-lg-7 text-lg-left text-center">
+                      <h1 class="display-4 mt-5"><b> Packed with features</b></h1>
+                      <p class="lead">Wrappr apps come packed with the following features:</p>
+                      <ul class="media-list">
+                       <li class="media">
+                          <div class="media-left">
+                            <i class="material-icons">business</i>
+                          </div>
+                          <div class="media-body ml-2">
+                            <h4 class="media-heading">Complete Solution</h4>
+                            Create beautiful mobile sites without any programming knowledge.
+                          </div>
+                        </li>
+                       <li class="media">
+                          <div class="media-left">
+                            <i class="material-icons">format_paint</i>
+                          </div>
+                          <div class="media-body ml-2">
+                            <h4 class="media-heading">Self-Hosted, White Label</h4>
+                            Use your own domain and logo. Your customers won't know we exist.
+                          </div>
+                        </li>
+                      </ul>
+                      <div class="btn-container text-xs-center text-md-left btn-stack-lg">
+                        <a class="btn btn-outline-ghost btn-xlg btn-pill" href="https://www.youtube.com/watch?v=JQVmkDUkZT4" data-toggle="lightbox" role="button"><i class="fa fa-play-circle" aria-hidden="true"></i> Play Video</a>
+                      </div>
+                    </div>
+                    <!-- /.col -->
+                  </div>
+                  <!-- /.row -->
+                </div>
+                <!-- /.header-padding -->
+              </div>
+              <!-- /.container -->
+            </div>
+            <!-- /.header-overlay -->
+          </div>
+          <!-- /.header -->
+        </section>
+    
+        
           <!-- Image Jumbotron #8
       ================================================== -->
-    <style type="text/css">
-      /* http://www.colorzilla.com/gradient-editor/#4776e6+0,8e54e9+100 */
-      .image-jumbotron-8 .image-jumbotron-overlay {
-        background: #4776e6;
-        background: -moz-linear-gradient(top,  #4776e6 0%, #8e54e9 100%);
-        background: -webkit-linear-gradient(top,  #4776e6 0%,#8e54e9 100%);
-        background: linear-gradient(to bottom,  #4776e6 0%,#8e54e9 100%);
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4776e6', endColorstr='#8e54e9',GradientType=0 );
-      }
-      </style>
-    
-
       <section class="typography-2">
         <div class="content" style="background-image:url()">
           <div class="content-overlay" style="background-color:rgba(0,0,0,0.15)">
